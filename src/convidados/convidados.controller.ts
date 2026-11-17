@@ -12,6 +12,7 @@ import {
 import { ConvidadosService } from './convidados.service.js';
 import { CreateConvidadoDto } from './dto/create-convidado.dto.js';
 import { UpdateConvidadoDto } from './dto/update-convidado.dto.js';
+
 @Controller('convidados')
 export class ConvidadosController {
   constructor(private readonly convidadosService: ConvidadosService) {}
